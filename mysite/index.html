@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>My Site</title>
+    <script src="https://kit.fontawesome.com/2285947374.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -13,9 +14,9 @@
           <img src="img/logo.png" alt="logo" class="logo">
           <ul>
             <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
-            <li class="nav-item"><a href="">Feature</a></li>
-            <li class="nav-item"><a href="">Profile</a></li>
-            <li class="nav-item"><a href="">Contact</a></li>
+            <li class="nav-item"><a href="#feature">Feature</a></li>
+            <li class="nav-item"><a href="#profile">Profile</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -29,8 +30,8 @@
     </header>
 
     <main>
-      <div id="portfolio">
-        <div class="portfolio-text">
+      <div id="portfolio" class="wrapper">
+        <div id="portfolio-text" class="title-text">
           <h2>Portfolio</h2>
           <p>
             It is a long established fact that a reader will be distracted by the readable<br>
@@ -47,6 +48,105 @@
           <li class="portfolio-image6"></li>
         </ul>
       </div>
+
+      <div id="feature" class="wrapper">
+        <div id="feature-text" class="title-text">
+          <h2>Feature</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by the readable<br>
+            content of a page when looking at its layout<br>
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+          </p>
+        </div>
+        <div class="strength-items">
+          <div class="strength">
+            <div class="strength-icon">
+              <i class="fas fa-code"></i>
+              <h3>Strength1</h3>
+            </div>
+            <p>
+              Contrary to popular belief. Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
+            </p>
+          </div>
+          <div class="strength">
+            <div class="strength-icon">
+              <i class="fas fa-desktop"></i>
+              <h3>Strength2</h3>
+            </div>
+            <p>
+              Contrary to popular belief. Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
+            </p>
+          </div>
+          <div class="strength">
+            <div class="strength-icon">
+              <i class="fas fa-cogs"></i>
+              <h3>Strength3</h3>
+            </div>
+            <p>
+              Contrary to popular belief. Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="profile" class="wrapper">
+        <div id="profile-text" class="title-text">
+          <h2>Profile</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by the readable<br>
+            content of a page when looking at its layout<br>
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+          </p>
+        </div>
+        <div class="profile-items">
+          <div class="myicon">
+            <img src="img/my-icon.jpg" alt="my-icon" class="icon">
+          </div>
+          <div class="myself">
+            <div class="myname">
+              <h3>MyName</h3>
+              <p>
+                Contrary to popular belief. Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
+              </p>
+            </div>
+            <div class="myskills">
+              <h3>MySkills</h3>
+              <p>HTML/CSS/JavaScript/JQuery/PhotoShop</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="wrapper">
+        <div id="contact-text" class="title-text">
+          <h2>Contact</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by the readable<br>
+            content of a page when looking at its layout<br>
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+          </p>
+        </div>
+        <div class="contact-info">
+          <div class="contact-wrapper1">
+            <div class="mail-tel">
+              <h3>Mail</h3>
+              <a href="#">xxx@xxx.com</a>
+              <h3 class="tel">Tel</h3>
+              <a href="#">000-0000-0000</a>
+            </div>
+          </div>
+          <div class="contact-wrapper2">
+            <div class="sns">
+              <h3>SNS</h3>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>©︎2017 WebCamp</footer>
     </main>
 
   </body>
