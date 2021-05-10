@@ -68,26 +68,27 @@ header {
 }
 
 .title-text h2 {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+  position: relative;
   text-align: center;
   font-size: 32px;
   color: #000000;
 }
 
-.title-text h2:before {
+.title-text h2::after {
   content: "";
+  display: block;
   position: absolute;
   left: 50%;
-  height: 3px;
-  width: 70px;
-  bottom: -8px;
-  display: inline-block;
   transform: translate(-50%);
+  bottom: -8px;
+  width: 70px;
+  height: 3px;
   background: #ec715f;
 }
 
 .title-text p {
-  margin: 30px 0;
+  margin: 41px 0 30px;
   text-align: center;
   font-size: 16px;
   color: #000000;
@@ -316,4 +317,40 @@ footer {
   font-size: 16px;
   color: #fafafa;
   text-align: center;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  .title-text {
+    max-width: 90%;
+  }
+
+  .portfolio-images {
+    display: block;
+  }
+
+  .portfolio-image1,
+  .portfolio-image2,
+  .portfolio-image3,
+  .portfolio-image4,
+  .portfolio-image5,
+  .portfolio-image6 {
+    width: 90%;
+  }
+
+  .strength-items {
+    width: 90%;
+    display: block;
+  }
+
+  .profile-items {
+    max-width: 90%;
+    display: block;
+  }
+
+  .contact-info {
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
 }
