@@ -259,7 +259,7 @@ header {
 }
 
 /* contact */
-#contact {
+#contact-text {
   width: 800px;
   margin: 0 auto;
 }
@@ -325,17 +325,53 @@ footer {
     max-width: 90%;
   }
 
+  .break {
+    display: none;
+  }
+
+  .nav-bar {
+    width: 90%;
+    height: 50px;
+  }
+
+  .logo {
+    width: 111px;
+  }
+
+  .main-visual {
+    height: 650px;
+    background-image: url(img/code.png);
+    background-position: center;
+  }
+
+  .main-visual-text h1 {
+    font-size: 40px;
+  }
+
+  .main-visual-text p {
+    font-size: 18px;
+  }
+
   .portfolio-images {
+    width: 90%;
     display: block;
   }
 
   .portfolio-image1,
-  .portfolio-image2,
   .portfolio-image3,
+  .portfolio-image5 {
+    display: none;
+  }
+
+  .portfolio-image2 {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
   .portfolio-image4,
-  .portfolio-image5,
   .portfolio-image6 {
-    width: 90%;
+    margin: 10px auto;
   }
 
   .strength-items {
@@ -343,14 +379,64 @@ footer {
     display: block;
   }
 
+  .strength {
+    margin: 0 auto 30px;
+  }
+
+  .strength:last-child {
+    margin: 0 auto;
+  }
+
+  .strength p {
+    line-height: 1.5;
+  }
+
+  #profile-text {
+    margin: 0 auto;
+  }
+
   .profile-items {
     max-width: 90%;
     display: block;
+  }
+
+  .myicon {
+    margin: 0 auto;
+  }
+
+  .myself {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .myname {
+    margin-bottom: 0;
+  }
+
+  .myname h3,
+  .myskills h3 {
+    padding: 20px 0 5px;
   }
 
   .contact-info {
     width: 90%;
     display: block;
     text-align: center;
+  }
+
+  .contact-wrapper1 {
+    margin: 0 auto 20px;
+  }
+
+  .contact-wrapper2 {
+    margin: 0 auto;
+  }
+
+  .sns a {
+    padding-right: 8px;
+  }
+
+  .sns a:last-child {
+    padding-right: 0;
   }
 }
